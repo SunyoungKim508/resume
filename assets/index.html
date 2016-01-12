@@ -52,6 +52,8 @@
           .attr("height", diameter)
           .attr("class", "bubble");
 
+          console.log(d3.select('#tech'));
+
       d3.json('./data.json', function(error, root) {
         console.log(root);
         if (error) throw error;
