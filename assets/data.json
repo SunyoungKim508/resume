@@ -14,8 +14,8 @@
     {
      "name": "graph",
      "children": [
-      {"name": "React", "size": 3534},
-      {"name": "React Native", "size": 5731},
+      {"name": "Ionic", "size": 3534},
+      {"name": "Git", "size": 5731},
       {"name": "Redux", "size": 7840}
      ]
     },
@@ -30,8 +30,8 @@
   {
    "name": "animate",
    "children": [
-    {"name": "Git", "size": 17010},
-    {"name": "Ionic", "size": 5842},
+    {"name": "React Native", "size": 17010},
+    {"name": "React", "size": 5842},
     {
      "name": "interpolate",
      "children": [
@@ -110,9 +110,9 @@
     {
      "name": "legend",
      "children": [
-      {"name": "JavaScript", "size": 9201},
+      {"name": "Express", "size": 9201},
       {"name": "Node.js", "size": 6714},
-      {"name": "Express", "size": 19975}
+      {"name": "JavaScript", "size": 19975}
      ]
     },
     {
