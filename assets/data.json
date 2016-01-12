@@ -111,39 +111,6 @@
    ]
   },
   {
-   "name": "query",
-   "children": [
-    {"name": "AggregateExpression", "size": 1616},
-    {"name": "And", "size": 1027},
-    {"name": "Arithmetic", "size": 3891},
-    {"name": "Average", "size": 891},
-    {"name": "BinaryExpression", "size": 2893},
-    {"name": "Comparison", "size": 5103},
-    {"name": "CompositeExpression", "size": 3677},
-    {"name": "Count", "size": 781},
-    {"name": "DateUtil", "size": 4141},
-    {"name": "Distinct", "size": 933},
-    {"name": "Expression", "size": 5130},
-    {"name": "ExpressionIterator", "size": 3617},
-    {"name": "Fn", "size": 3240},
-    {"name": "If", "size": 2732},
-    {"name": "IsA", "size": 2039},
-    {"name": "Literal", "size": 1214},
-    {"name": "Match", "size": 3748},
-    {"name": "Maximum", "size": 843},
-    {"name": "Minimum", "size": 843},
-    {"name": "Not", "size": 1554},
-    {"name": "Or", "size": 970},
-    {"name": "Query", "size": 13896},
-    {"name": "Range", "size": 1594},
-    {"name": "StringUtil", "size": 4130},
-    {"name": "Sum", "size": 791},
-    {"name": "Variable", "size": 1124},
-    {"name": "Variance", "size": 1876},
-    {"name": "Xor", "size": 1101}
-   ]
-  },
-  {
    "name": "scale",
    "children": [
     {"name": "IScaleMap", "size": 2105},
@@ -214,22 +181,6 @@
       {"name": "AxisGridLine", "size": 652},
       {"name": "AxisLabel", "size": 636},
       {"name": "CartesianAxes", "size": 6703}
-     ]
-    },
-    {
-     "name": "controls",
-     "children": [
-      {"name": "AnchorControl", "size": 2138},
-      {"name": "ClickControl", "size": 3824},
-      {"name": "Control", "size": 1353},
-      {"name": "ControlList", "size": 4665},
-      {"name": "DragControl", "size": 2649},
-      {"name": "ExpandControl", "size": 2832},
-      {"name": "HoverControl", "size": 4896},
-      {"name": "IControl", "size": 763},
-      {"name": "PanZoomControl", "size": 5222},
-      {"name": "SelectionControl", "size": 7862},
-      {"name": "TooltipControl", "size": 8435}
      ]
     },
     {
