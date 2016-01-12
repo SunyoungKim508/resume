@@ -52,7 +52,6 @@
     },
     {"name": "ISchedulable", "size": 1041},
     {"name": "Parallel", "size": 5176},
-    {"name": "Pause", "size": 449},
     {"name": "Scheduler", "size": 5593},
     {"name": "Sequence", "size": 5534},
     {"name": "Transition", "size": 9201},
@@ -67,7 +66,6 @@
     {
      "name": "converters",
      "children": [
-      {"name": "Converters", "size": 721},
       {"name": "DelimitedTextConverter", "size": 4294},
       {"name": "GraphMLConverter", "size": 9800},
       {"name": "IDataConverter", "size": 1314},
@@ -76,7 +74,6 @@
     },
     {"name": "DataField", "size": 1759},
     {"name": "DataSchema", "size": 2165},
-    {"name": "DataSet", "size": 586},
     {"name": "DataSource", "size": 3331},
     {"name": "DataTable", "size": 772},
     {"name": "DataUtil", "size": 3322}
@@ -102,7 +99,6 @@
    "children": [
     {"name": "DragForce", "size": 1082},
     {"name": "GravityForce", "size": 1336},
-    {"name": "IForce", "size": 319},
     {"name": "NBodyForce", "size": 10498},
     {"name": "Particle", "size": 2822},
     {"name": "Simulation", "size": 9983},
@@ -141,9 +137,6 @@
       {"name": "HeapNode", "size": 1233}
      ]
     },
-    {"name": "IEvaluable", "size": 335},
-    {"name": "IPredicate", "size": 383},
-    {"name": "IValueProxy", "size": 874},
     {
      "name": "math",
      "children": [
@@ -178,8 +171,6 @@
      "children": [
       {"name": "Axes", "size": 1302},
       {"name": "Axis", "size": 24593},
-      {"name": "AxisGridLine", "size": 652},
-      {"name": "AxisLabel", "size": 636},
       {"name": "CartesianAxes", "size": 6703}
      ]
     },
@@ -194,7 +185,6 @@
       {
        "name": "render",
        "children": [
-        {"name": "ArrowType", "size": 698},
         {"name": "EdgeRenderer", "size": 5569},
         {"name": "IRenderer", "size": 353},
         {"name": "ShapeRenderer", "size": 2247}
