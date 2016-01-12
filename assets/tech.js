@@ -1,6 +1,6 @@
 var diameter = 960,
     format = d3.format(",d"),
-    color = d3.scale.category20c();
+    color = d3.scale.category20b();
 
 var bubble = d3.layout.pack()
     .sort(null)
