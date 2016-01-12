@@ -13,7 +13,7 @@ var svg = d3.select("#tech").append("svg")
     .attr("class", "bubble");
 
 d3.json('./data.json', function(error, root) {
-  console.log(error);
+  console.log(root);
   if (error) throw error;
 
   var node = svg.selectAll(".node")
