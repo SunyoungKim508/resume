@@ -8,12 +8,11 @@ var bubble = d3.layout.pack()
     .padding(1.5);
 
 var svg = d3.select("#tech").append("svg")
-    .attr("width", 1160)
+    .attr("width", diameter)
     .attr("height", diameter)
     .attr("class", "bubble");
 
 d3.json('./data.json', function(error, root) {
-  console.log(root);
   if (error) throw error;
 
   var node = svg.selectAll(".node")
