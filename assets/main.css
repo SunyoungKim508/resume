@@ -130,6 +130,11 @@ a:active {
   height: 100;
 }
 
+#tech {
+  width: 960;
+  height: 960;
+}
+
 /* Featurettes
 ------------------------- */
 
