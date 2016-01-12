@@ -8,7 +8,7 @@ var bubble = d3.layout.pack()
     .padding(1.5);
 
 var svg = d3.select("#tech").append("svg")
-    .attr("width", diameter)
+    .attr("width", diameter + 200)
     .attr("height", diameter)
     .attr("class", "bubble");
 
