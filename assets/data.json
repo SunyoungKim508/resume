@@ -9,8 +9,7 @@
      "children": [
       {"name": "AgglomerativeCluster", "size": 3938},
       {"name": "CommunityStructure", "size": 3812},
-      {"name": "HierarchicalCluster", "size": 6714},
-      {"name": "MergeEdge", "size": 743}
+      {"name": "HierarchicalCluster", "size": 6714}
      ]
     },
     {
@@ -39,21 +38,12 @@
     {
      "name": "interpolate",
      "children": [
-      {"name": "ArrayInterpolator", "size": 1983},
-      {"name": "ColorInterpolator", "size": 2047},
-      {"name": "DateInterpolator", "size": 1375},
       {"name": "Interpolator", "size": 8746},
       {"name": "MatrixInterpolator", "size": 2202},
-      {"name": "NumberInterpolator", "size": 1382},
-      {"name": "ObjectInterpolator", "size": 1629},
       {"name": "PointInterpolator", "size": 1675},
       {"name": "RectangleInterpolator", "size": 2042}
      ]
     },
-    {"name": "ISchedulable", "size": 1041},
-    {"name": "Parallel", "size": 5176},
-    {"name": "Scheduler", "size": 5593},
-    {"name": "Sequence", "size": 5534},
     {"name": "Transition", "size": 9201},
     {"name": "Transitioner", "size": 19975},
     {"name": "TransitionEvent", "size": 1116},
@@ -75,7 +65,6 @@
     {"name": "DataField", "size": 1759},
     {"name": "DataSchema", "size": 2165},
     {"name": "DataSource", "size": 3331},
-    {"name": "DataTable", "size": 772},
     {"name": "DataUtil", "size": 3322}
    ]
   },
@@ -97,8 +86,6 @@
   {
    "name": "physics",
    "children": [
-    {"name": "DragForce", "size": 1082},
-    {"name": "GravityForce", "size": 1336},
     {"name": "NBodyForce", "size": 10498},
     {"name": "Particle", "size": 2822},
     {"name": "Simulation", "size": 9983},
@@ -110,12 +97,6 @@
    "name": "scale",
    "children": [
     {"name": "IScaleMap", "size": 2105},
-    {"name": "LinearScale", "size": 1316},
-    {"name": "LogScale", "size": 3151},
-    {"name": "OrdinalScale", "size": 3770},
-    {"name": "QuantileScale", "size": 2435},
-    {"name": "QuantitativeScale", "size": 4839},
-    {"name": "RootScale", "size": 1756},
     {"name": "Scale", "size": 4268},
     {"name": "ScaleType", "size": 1821},
     {"name": "TimeScale", "size": 5833}

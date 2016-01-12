@@ -239,7 +239,10 @@ i:hover {
   .featurette-heading {
     font-size: 50px;
   }
-
+  
+  #tech {
+    display: none;
+  }
 
 }
 
