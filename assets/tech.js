@@ -11,6 +11,7 @@ var svg = d3.select("#tech").append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
     .attr("class", "bubble");
+    .attr("transform", "translate(" + diameter/2 + "," + 0 + ")");
 
 d3.json('./data.json', function(error, root) {
   if (error) throw error;
@@ -20,7 +21,7 @@ d3.json('./data.json', function(error, root) {
       .filter(function(d) { return !d.children; }))
     .enter().append("g")
       .attr("class", "node")
-      .attr("transform", function(d) { return "translate(" + d.x + 100 + "," + d.y + ")"; });
+      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 
   node.append("title")
       .text(function(d) { return d.className + ": " + format(d.value); });
