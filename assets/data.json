@@ -7,9 +7,8 @@
     {
      "name": "cluster",
      "children": [
-      {"name": "JavaScript", "size": 3938},
-      {"name": "Node.js", "size": 3812},
-      {"name": "Express", "size": 6714}
+      {"name": "Gulp", "size": 3938},
+      {"name": "Grunt", "size": 3812}
      ]
     },
     {
@@ -36,8 +35,8 @@
     {
      "name": "interpolate",
      "children": [
-      {"name": "Cordova", "size": 8746},
-      {"name": "Firebase", "size": 2202}
+      {"name": "D3", "size": 8746},
+      {"name": "Socket.IO", "size": 2202}
      ]
     }
    ]
@@ -52,8 +51,8 @@
       {"name": "Docker", "size": 9800}
      ]
     },
-    {"name": "D3", "size": 3331},
-    {"name": "Socker.IO", "size": 3322}
+    {"name": "Cordova", "size": 3331},
+    {"name": "Firebase", "size": 3322}
    ]
   },
   {
@@ -86,7 +85,7 @@
   {
    "name": "util",
    "children": [
-    {"name": "Mockup Apps", "size": 1821},
+    {"name": "Mockup", "size": 1821},
     {"name": "UX Design", "size": 5833}
    ]
   },
@@ -103,7 +102,7 @@
     {
      "name": "data",
      "children": [
-      {"name": "Skeleton", "size": 9983},
+      {"name": "ES6", "size": 9983},
       {"name": "Jade", "size": 2213},
       {"name": "Backbone", "size": 1681}
      ]
@@ -111,8 +110,9 @@
     {
      "name": "legend",
      "children": [
-      {"name": "Grunt", "size": 9201},
-      {"name": "Gulp", "size": 19975}
+      {"name": "JavaScript", "size": 9201},
+      {"name": "Node.js", "size": 6714},
+      {"name": "Express", "size": 19975}
      ]
     },
     {
@@ -133,7 +133,7 @@
       {
        "name": "filter",
        "children": [
-        {"name": "ES6", "size": 1116},
+        {"name": "Skeleton", "size": 1116},
         {"name": "Heroku", "size": 6006}
        ]
       },
