@@ -10,7 +10,7 @@ var bubble = d3.layout.pack()
 var svg = d3.select("#tech").append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
-    .attr("class", "bubble");
+    .attr("class", "bubble")
     .attr("transform", "translate(" + diameter/2 + "," + 0 + ")");
 
 d3.json('./data.json', function(error, root) {
