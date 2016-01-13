@@ -279,7 +279,7 @@ i:hover {
     display: block;
   }
 
-  .tech {
+  #tech {
     display: none;
   }
 }
@@ -288,7 +288,7 @@ i:hover {
   .techskills {
     display: none;
   }
-  .tech {
+  #tech {
     display: block;
   }
 }
