@@ -27,6 +27,16 @@ body {
   margin-left: 10px;
 }
 
+.caption-intro {
+  font-size: 1.2em;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+}
+
+.captions {
+  margin-top: 2em;
+}
+
 /* Project */
 .project img{
   width: 100%;
@@ -142,6 +152,13 @@ a:active {
   margin-top: 80px;
 }
 
+
+
+i {
+  font-size: 100px;
+  margin-top: 0.25em;
+}
+
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
 }
@@ -180,6 +197,14 @@ h3 {
 
 .tech {
   width: 80%;
+}
+
+.thumbnail i{
+  color:  #a70000; /* Old browsers */
+}
+
+.thumbnail i:hover {
+  color: rgb(255,176,66); /* Old browsers */
 }
 
 /* Contact */
