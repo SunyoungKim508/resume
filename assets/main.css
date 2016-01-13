@@ -82,7 +82,7 @@ a:active {
 
 .nav {
   display: inline-block;
-  margin: 10px;
+  margin: 7px;
 }
 
 .nav-list {
@@ -95,7 +95,7 @@ a:active {
 .heading {
   margin-top: 70px;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 53px;
   line-height: 1;
   letter-spacing: 3px;
 }
@@ -290,4 +290,8 @@ div.bottom-line {
 
 a:active {
   text-decoration: none; 
+}
+
+#about h3 {
+  margin-top: 10px;
 }
