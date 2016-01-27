@@ -10,9 +10,37 @@ body {
   color: #5a5a5a;  
 }
 
+#header-image {
+  background-image: url(./resumepic2.jpg);
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 20px;
+}
+
+#photos {
+  margin-top: 4em;
+  position: absolute;
+  top: 0;
+  z-index: -99;
+  width:100%;
+}
+
+h1.heading {
+  margin-top: 140px;
+}
+
+.title {
+  margin-bottom: 140px;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
+
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
@@ -97,7 +125,6 @@ a:active {
 
 .nav-list {
   margin: 0 auto;
-  margin-bottom: 10px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -339,4 +366,8 @@ a:active {
 
 #about h3 {
   margin-top: 10px;
+}
+
+.contact {
+  margin-top: 30px;
 }
